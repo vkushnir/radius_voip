@@ -1,0 +1,27 @@
+$INCLUDE	/usr/share/freeradius/dictionary
+$INCLUDE	/usr/share/freeradius/dictionary.cisco
+
+# CISCO additional attribute
+ATTRIBUTE	Feature-VSA			3000	string
+ATTRIBUTE	IpHop				3001	string
+ATTRIBUTE	Redirected-Station		3002	string
+ATTRIBUTE	Alert-Timepoint			3003	string
+ATTRIBUTE	Lost-Packets			3004	integer
+ATTRIBUTE	In-Trunkgroup-Label		3005	string
+ATTRIBUTE	Out-Trunkgroup-Label		3006	string
+ATTRIBUTE	faxrelay-start-time		3007	string
+ATTRIBUTE	faxrelay-stop-time		3008	string
+ATTRIBUTE	faxrelay-max-jit-buf-depth	3009	integer
+ATTRIBUTE	faxrelay-jit-buf-ovflow		3010	integer
+ATTRIBUTE	faxrelay-init-hs-mod		3011	string
+ATTRIBUTE	faxrelay-mr-hs-mod		3012	string
+ATTRIBUTE	faxrelay-num-pages		3013	integer
+ATTRIBUTE	faxrelay-rx-packets		3014	integer
+ATTRIBUTE	faxrelay-tx-packets		3015	integer
+ATTRIBUTE	faxrelay-direction		3016	string
+ATTRIBUTE	faxrelay-pkt-conceal		3017	integer
+ATTRIBUTE	faxrelay-ecm-status		3018	string
+ATTRIBUTE	faxrelay-encap-prot		3019	string
+ATTRIBUTE	faxrelay-nsf-country-code	3020	string
+ATTRIBUTE	faxrelay-fax-success		3021	string
+
