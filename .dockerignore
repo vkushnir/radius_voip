@@ -1,0 +1,4 @@
+﻿LICENSE
+README.md
+*.env
+.dockerdata
