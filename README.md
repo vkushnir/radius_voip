@@ -1,6 +1,6 @@
 # radius_voip
 Accounting service for VoIP Gateways
-Docker image name **vkushnir/radius:voip**
+Docker image name **vkushnir/radiusd:voip**
 
 ## Environment variables for container
 
