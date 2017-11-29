@@ -1,4 +1,4 @@
-# radius_pppoe
+# radius_voip
 Accounting service for VoIP Gateways
 Docker image name **vkushnir/radius:voip**
 
